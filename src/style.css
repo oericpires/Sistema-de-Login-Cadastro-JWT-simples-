@@ -1,0 +1,119 @@
+.login-cadastro {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.btn-login,
+.btn-cadastro {
+    width: 100%;
+    padding: 12px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-login:hover,
+.btn-cadastro:hover {
+    background: #45a049;
+}
+
+.link-cadastro,
+.link-login {
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+}
+
+.link-cadastro a,
+.link-login a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-cadastro a:hover,
+.link-login a:hover {
+    text-decoration: underline;
+}
+
+#container-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.campo-invalido {
+    border-color: #f44336 !important;
+    border-width: 2px !important;
+}
+
+.campo-valido {
+    border-color: #4CAF50 !important;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.erro-mensagem {
+    color: #f44336;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: block;
+}
+
+.sucesso-mensagem {
+    color: #4CAF50;
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+    border: 1px solid #c8e6c9;
+}
+
+/* Estilo para campo focado após erro */
+.campo-invalido:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(244, 67, 54, 0.2);
+}
+
+/* Animação suave */
+.form-group input {
+    transition: border-color 0.3s ease;
+}
